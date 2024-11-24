@@ -22,7 +22,7 @@ additions;
 
 %% initialize parameters
 obj_tol = 0.00;
-FVAcheckwt = 1; 
+FVAcheckwt = 0; 
 
 modelpFBA.lb(find(exchrxn)) = -1000;
 modelpFBA.ub(find(exchrxn)) = 1000;
